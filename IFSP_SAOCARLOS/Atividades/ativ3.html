@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulário</title>
+</head>
+<body>
+    <main>
+        <h1>Crie uma conta:</h1>
+        <form action="ativ3.html" method="get" autocomplete="off">
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <p>
+                    <label for="nome">Digite seu nome:</label>
+                    <input type="text" id="nome" name="form_nome" required placeholder="Preencha seu nome completo..." minlength="4">
+                <p>
+                    <label for="altura">Insira sua altura:</label>
+                    <input type="number" id="altura" name="form_altura" min="0.5" max="2.5" required step="0.1">
+                </p>
+                <p>
+                    <label for="dataNascimento">Data de nascimento:</label>
+                    <input type="date" id="dataNascimento" name="form_dataNascimento" required data-min-date="2023-09-01" data-max-date="2023-09-30">
+                </p>
+                <p>
+                    <label for="estadoCivil">Estado civil:</label>
+                    <select id="estadoCivil" name="form_estadoCivil">
+                        <option value="1">---</option>
+                        <option value="2" selected>Solteiro</option>
+                        <option value="3">Casado</option>
+                        <option value="4">Divorciado</option>
+                        <option value="5">Viúvo</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Crie seu perfil</legend>
+                <p>
+                    <label for="senhaUsuario">Crie sua senha:</label>
+                    <input type="password" id="senhaUsuario" name="form_senhaUsuario" required minlength="4" maxlength="6">
+                </p>
+                <p>
+                    <label for="fotoPerfil">Envie uma foto de perfil:</label>
+                    <input type="file" id="fotoPerfil" name="form_fotoPerfil" accept=".jpg">
+                </p>
+                <p>
+                    <label for="horario">Horário: </label>
+                    <input type="time" id="horario" name="forma_horario" required min="08:00" max="18:00">
+                </p>
+                <p>
+                    <label for="maioridadeSim">Tenho mais de 18 anos
+                    <input type="radio" name="form_maioridade" id="maioridadeSim" value="sim" checked>
+                    </label>
+                    <label for="maioridadeNao">Não tenho mais de 18 anos
+                    <input type="radio" name="form_maioridade" id="maioridadeNao" value="Não">
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" name="form_cadastrar" id="cadastrar" value="Cadastrar">
+                    <input type="reset" name="form_limpar" id="limpar" value="Limpar">
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

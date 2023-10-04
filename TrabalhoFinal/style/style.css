@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+/* HEADER */
+
+header{
+    border-bottom: #783F8E solid 3px;
+}
+.font__header{
+    font-family: 'Play', sans-serif;
+}
+.h1__header{
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+.a__header{
+    font-family: 'Play', sans-serif;
+    margin: 25px 25px 25px 25px;   
+    display: flex;
+    gap: 80px; 
+}
+.flexbox__header{
+    display: flex;
+    justify-content: space-between;
+}
+/* HEADER */
+
+body{
+    background-color: #C8C6D7;
+}
+a{
+    text-decoration: none;
+    color: #783F8E;
+}
+.div__principal{
+    -webkit-box-shadow: -24px 16px 7px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: -24px 16px 7px 0px rgba(0,0,0,0.38);
+    box-shadow: -24px 16px 7px 0px rgba(0,0,0,0.38); 
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    color: #783F8E;
+}
+
+/* BUTTON */
+
+.a__hover:hover, a:focus{
+    font-size: 101%;
+    outline: 1px solid #783F8E      
+}
+.cor__roxo{
+    color: #783F8E;
+}
+
