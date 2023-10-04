@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycle+: Projetos</title>
+</head>
+<body>
+  <header>
+    <h2 id="topo">Navegue pelo nosso site</h2>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Página inicial</a></li>
+        <li><a href="quemSomos.html">Sobre</a></li>
+        <li><a href="comoAjudar.html">Como ajudar</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <div>
+      <h1>Projetos</h1>
+      <img src="/imagens/pessoasProjetando.jpg" alt="pessoas em uma mesa projetando algo em uma folha" width="300" height="310">
+    </div>
+  </header>
+  <hr>
+  <aside>
+    <!-- Espaço para anúncio -->
+  </aside>
+  <section>
+    <header>
+      <h2>Projetos em andamento:</h2>
+    </header>
+    <div>
+      <ul>
+        <li><a href=#sacolas>Sacolas Reutilizáveis</a></li>
+        <li><a href=#oscincor>Conscientização dos 5R's</a></li>
+        <li><a href=#seletiva>Coleta Seletiva</a></li>
+        <li><a href=#eletronico>Coleta de lixo eletrônico nas escolas</a></li>
+      </ul>
+    </div>
+    <hr>
+    <div>
+      <p>Deseja receber <b>novidades</b> do(s) projeto(s)?</p>
+      <ul>
+        <li>Enviamos no seu email notificações de progresso!</li>
+      </ul>
+      <form action="projetos.html" method="get" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Receba notificações!</legend>
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." maxlength="20" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email..." maxlength="30" required>
+          </div>
+          <div>
+            <label>Quais projetos você deseja receber novidades?</label><br>
+            <input type="checkbox" id="sacolasprojeto" name="selecaoprojetos[]" value="sacolasprojeto">
+            <label for="sacolasprojeto">Sacolas Reutilizáveis</label><br>
+            <input type="checkbox" id="oscincorprojeto" name="selecaoprojetos[]" value="oscincorprojeto">
+            <label for="oscincorprojeto">Conscientização dos 5R's</label><br>
+            <input type="checkbox" id="seletivaprojeto" name="selecaoprojetos[]" value="seletivaprojeto">
+            <label for="seletivaprojeto">Coleta Seletiva</label><br>
+            <input type="checkbox" id="eletronicoprojeto" name="selecaoprojetos[]" value="eletronicoprojeto">
+            <label for="eletronicoprojeto">Coleta de lixo eletrônico nas escolas</label><br>
+          </div>
+          <div>
+            <label>Deseja saber quando surgirem novos projetos?</label><br>
+            <input type="radio" id="sim" name="novosprojetos" value="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="novosprojetos" value="nao">
+            <label for="nao">Não</label>
+          </div>
+          <div>
+            <input type="reset" name="reset" id="reset" value="Limpar">
+            <input type="submit" name="submit" id="submit" value="Enviar">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <main>
+    <div>
+      <article>
+        <header>
+          <h2 id="sacolas">Sacolas Reutilizáveis</h2>
+        </header>
+        <p>O projeto de sacolas reutilizáveis é uma iniciativa da Recycle+ que visa reduzir o uso de sacolas plásticas descartáveis em supermercados e lojas da região, contribuindo para a preservação do meio ambiente e a redução dos impactos 
+        negativos do plástico no ecossistemas.</p>
+        <div>
+          <h3>Objetivos:</h3>
+          <ul>
+            <li>Reduzir uso de plástico</li>
+            <li>Promover hábitos saudáveis ao meio ambiente</li>
+            <li>Distribuir sacolas reutilizáveis gratuitamente em centros de reciclagem</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Localidades:</h3>
+          <p>Adquira já sua sacola da Recycla+ em</p>
+          <ul>
+            <li>Centro de reciclagem X Araraquara</li>
+            <li>Sede Recycla+ Shopping Jaraguá</li>
+          </ul>
+        </div>
+      </article>
+      <hr>
+      <article>
+        <header>
+          <h2 id="oscincor">Conscientização dos 5R's</h2>
+        </header>
+        <div>
+          <ol type="1">
+            <li>Repensar</li>
+            <li>Recusar</li>
+            <li>Reduzir</li>
+            <li>Reutilizar</li>
+            <li>Recliclar</li>
+          </ol>
+        </div>
+        <p>O intuito da ONG é fazer com que a política dos 5Rs (repensar, recusar, reduzir, reutilizar e
+        reciclar) seja conhecida e aplicada corretamente pela sociedade. Para que os impactos dos resíduos no meio ambiente seja
+        reduzido de maneira que um dia possa beirar a inexistência. Para alcançar tal objetivo, a Recycle+
+        pensa em disponibilizar acesso à informação por meio de cartazes, publicações em redes sociais e
+        outros meios, com o fito de tornar o assunto normal, cada vez mais natural.</p>
+        <div>
+          <h3>Objetivos:</h3>
+          <ul>
+            <li>Conscientização da população</li>
+            <li>Melhorar reciclagem regional</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Localidades:</h3>
+          <ul>
+            <li>Araraquara e região</li>
+          </ul>
+        </div>
+      </article>
+      <hr>
+      <article>
+        <header>
+          <h2 id="seletiva">Coleta Seletiva</h2>
+        </header>
+        <p>Disponibilizamos uma central de coleta trazendo uma separação dos tipos de resíduos, para que então possamos encaminhar de maneira acertiva cada tipo de descarte para os lugares certos e então tornar possível os processos de reciclagem.</p>
+        <div>
+          <h3>Objetivos</h3>
+          <ul>
+            <li>Promover uma separação de resíduos por tipos:</li>
+            <li><ul>
+              <li>Papel;</li>
+              <li>Vidro;</li>
+              <li>Plástico;</li>
+              <li>Metal;</li>
+              <li>Orgânico.</li>
+            </ul></li>
+            <li>Disponibilizar locais adequados para o recolhimento;</li>
+            <li>Ter direcionamento do material recolhido para lugares certos;</li>
+            <li>Reduzir a poluição do solo, ar e água;</li>
+            <li>Melhorar a qualidade de vida da população.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Localidades</h3>
+          <ul>
+            <li>Bairro X</li>
+            <li>Bairro Y</li>
+            <li>Bairro Z</li>
+          </ul>
+        </div>
+      </article>
+      <hr> 
+      <article>
+        <header>
+          <h2 id="eletronico">Coleta de lixo eletrônico nas escolas</h2>
+        </header>
+        <p>Disponibilizamos pontos de coletas em algumas escolas para o recolhimento de descartes eletrônicos, tais como: celulares, baterias, computadores, componentes eletrônicos, entre outros.</p>
+        <div>
+          <h3>Objetivos</h3>
+          <ul>
+            <li>Estimular a prática da reciclagem e reutilização de componentes eletrônicos;</li>
+            <li>Conscientizar os alunos sobre a importância da destinação adequada de resíduos eletrônicos;</li>
+            <li>Evitar a contaminação do meio ambiente e reduzir os riscos à saúde humana causados pelo descarte inadequado de equipamentos eletrônicos;</li>
+            <li>Estimular o pensamento de manutenção e preservação do meio ambiente.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Localidades</h3>
+          <ul>
+            <li>Escola A</li>
+            <li>Escola B</li>
+            <li>Escola C</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </main>
+  <hr>
+  <footer>
+    <h2>Encontre-nos aqui:</h2>
+    <nav>
+      <ul>
+        <li>Sede Recycla+: Shopping Jaraguá: <span><b>Araraquara, SP, 14801-600</b></span></li>
+        <li>Telefone: (16) 0000-0000</li>
+        <li>Email: <a href="mailto:recycleplus@ong.org">recycleplus@ong.org</a></li>
+        <li>Redes sociais:
+          <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </footer>  
+</body>
+</html>
